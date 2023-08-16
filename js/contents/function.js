@@ -196,6 +196,7 @@ const FORMS = {
                 let ret = UPGS.inf_rep[1].effect().root(FORMS.inf.comp.effect().nerf).pow(player.chals.comps.includes('inf1')?player.chals.comps.length*0.5+1:1)
                 if (player.replicator.unl) ret = ret.pow(FORMS.replicator.effect().ir1)
                 if (ACHS.has(54)) ret = ret.pow(1.5)
+                ret=ret.pow(2)
                 return ret
             },
             effect() {
