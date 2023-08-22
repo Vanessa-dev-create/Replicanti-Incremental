@@ -59,8 +59,8 @@ const PLAYER_DATA = {
     inf_rep_upgs: {},
     time: 0,
     prestige: {
-        unl: false,
-        points: E(0),
+        unl: true,
+        points: E(1000),
         upgrades: [],
     },
     inf: {
